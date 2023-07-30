@@ -1,0 +1,123 @@
+* {
+    font-family: 'KoHo', sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Navigation Bar*/
+header {
+    background-color: #F2D1A7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    position: fixed; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 55px;
+    vertical-align: middle; /*To set the alignment in the center with the image*/
+    font-size: 24px;
+    color: #D0604C;
+}
+
+#logo {
+    margin: auto;
+}
+
+#book_now {
+    font-size: 24px;
+    background-color: #D0604C;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+}
+
+#book_now:hover {
+    color: black;
+    border: 2px solid #FFFF00;
+}
+
+
+/*Main Content*/
+#banner {
+    display: block;
+    outline: none;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.page {
+    padding-left: 20px;
+    font-size: 20px;
+}
+#services {
+    font-size: 32px;
+    font-weight: bold;
+    margin: top 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .card img {
+    border-radius: 50%;
+    width: 300px;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    background-color: #F2D9BA;
+    padding: 30px;
+    margin: 30px;
+    text-align: center; 
+    width: 300px;
+    height: 600px;
+    text-justify: inter-word;   
+    border-radius: 10%;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/*Tutorials*/
+
+/*Footer*/
+footer {
+    background-color: #F2D1A7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 500px;
+}
